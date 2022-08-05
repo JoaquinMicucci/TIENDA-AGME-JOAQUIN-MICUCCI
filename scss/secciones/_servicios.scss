@@ -1,0 +1,63 @@
+#pag_servicios{
+     h1{
+        font-weight: bolder;
+        text-align: center;
+        border-bottom:5px solid #101935;
+     }
+}
+#pag_servicios .mantenimiento{
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: left;
+    background: linear-gradient(90deg, #101935 0%, #86bbd8 84%, #86bbd8 100%);
+    h2{
+        font-size: 5rem;
+        text-decoration: underline;
+        color: white;
+    }
+    p{
+        line-height: 20px;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        iframe{
+            margin-top: 3px;
+        }
+    }
+}
+#pag_servicios .mantenimiento .container_mantenimiento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pag_servicios .mantenimiento .consejo{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    max-width: 50%;
+    
+}
+#pag_servicios .presupuestos{
+    background: linear-gradient(45deg, #101935 0%, #86bbd8 84%, #86bbd8 100%);
+    text-align: right;
+    h2{
+        text-decoration: underline;
+    }
+    p{
+        font-weight: bolder;
+    }
+}
+#pag_servicios .contacto_reparaciones{
+    text-align: left;
+    background:linear-gradient(45deg, #101935 0%, #86bbd8 84%, #86bbd8 100%);
+    h2{
+        color: white;
+        text-decoration: underline;
+    }
+    p{
+        color: white;
+        font-weight: bolder;
+    }
+}

@@ -1,0 +1,336 @@
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=League+Gothic&family=Roboto:wght@100;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+>>>>>>> 35ec5b42c6257320fe4fdd21c75173961bc490d1
+* {
+  margin: 0;
+  padding: 0; }
+
+<<<<<<< HEAD
+.footer_style {
+  background-color: #afcbff; }
+  .footer_style .logo_footer {
+    width: 10.5rem;
+    box-sizing: border-box;
+    border-radius: 10px; }
+
+.footer_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .footer_info section {
+    text-decoration: solid;
+    font-size: 100%;
+    align-items: center;
+    font-style: inherit;
+    font-weight: bolder;
+    color: #021650; }
+
+ul {
+  list-style: none; }
+  ul li {
+    margin: 1rem; }
+
+.header_first {
+  background-color: #101935; }
+  .header_first img {
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 15px; }
+
+.header_total {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center; }
+
+.header_title {
+  font-size: 30px;
+  color: white;
+  flex-basis: 80%;
+  text-align: center;
+  line-height: 100px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  font-weight: bolder; }
+
+.main_index {
+  padding: 5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: url(../img/piscinaS1.jpg);
+  background-size: cover;
+  align-items: center;
+  background-size: cover;
+  background-position-x: 70%;
+  background-position-y: center;
+  text-align: center;
+  background-attachment: fixed; }
+  .main_index section {
+    max-width: 80%;
+    text-align: center; }
+  .main_index button {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-left: 300px;
+    width: 250px;
+    height: 100px;
+    margin: 1rem;
+    background-color: #101935;
+    border-radius: 3rem;
+    text-align: center; }
+    .main_index button a {
+      text-decoration: none;
+      color: white; }
+
+.section1 {
+  font-size: 2rem;
+  font-weight: bolder; }
+
+.ubicacion {
+  text-align: center;
+  background-color: #ebebd3;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  font-weight: bolder; }
+
+.main_productos {
+  background-color: #ebebd3; }
+
+#contain_productos {
+  padding-top: 4rem; }
+
+#contain_productos h1 {
+  background-color: #101935;
+  color: white;
+  text-align: center;
+  border-radius: 19px;
+  padding: 5px; }
+
+#contain_productos .productos_card {
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+
+#contain_productos .productos_card_title {
+  background-color: #afcbff;
+  padding: 1rem;
+  color: white; }
+
+#contain_productos .productos_cards_img {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: 1fr min-content;
+  gap: 1rem;
+  margin-top: 2rem; }
+
+#contain_productos .productos .box_img {
+  text-align: center;
+  border: 2px solid #afcbff;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column; }
+
+#contain_productos .productos .box_img div {
+  flex-basis: 90%; }
+
+#contain_productos .productos .box_img p {
+  background-color: #afcbff;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-basis: 10%;
+  margin: 0; }
+
+#contain_productos .productos .box_img img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+#contain_productos .productos .box_img:hover {
+  border: 2px solid #000000;
+  transform: scale(1.2);
+  border-radius: 5px; }
+
+#pag_servicios h1 {
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 5px solid #101935; }
+
+#pag_servicios .mantenimiento {
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: left;
+  background: linear-gradient(90deg, #101935 0%, #86bbd8 84%, #86bbd8 100%); }
+  #pag_servicios .mantenimiento h2 {
+    font-size: 5rem;
+    text-decoration: underline;
+    color: white; }
+  #pag_servicios .mantenimiento p {
+    line-height: 20px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold; }
+    #pag_servicios .mantenimiento p iframe {
+      margin-top: 3px; }
+
+#pag_servicios .mantenimiento .container_mantenimiento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+#pag_servicios .mantenimiento .consejo {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  max-width: 50%; }
+
+#pag_servicios .presupuestos {
+  background: linear-gradient(45deg, #101935 0%, #86bbd8 84%, #86bbd8 100%);
+  text-align: right; }
+  #pag_servicios .presupuestos h2 {
+    text-decoration: underline; }
+  #pag_servicios .presupuestos p {
+    font-weight: bolder; }
+
+#pag_servicios .contacto_reparaciones {
+  text-align: left;
+  background: linear-gradient(45deg, #101935 0%, #86bbd8 84%, #86bbd8 100%); }
+  #pag_servicios .contacto_reparaciones h2 {
+    color: white;
+    text-decoration: underline; }
+  #pag_servicios .contacto_reparaciones p {
+    color: white;
+    font-weight: bolder; }
+
+#main-contacto {
+  background-color: white; }
+
+#contactoSection_1 {
+  padding-top: 4rem; }
+
+#contactoSection_1 .contain_form {
+  text-align: center; }
+
+#contactoSection_1 .contain_form_h2 {
+  color: white;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  border-bottom: 1px solid #000b80;
+  background-color: #000b80; }
+
+#contactoSection_1 .contain_form #content_form {
+  border: 1px solid #000b80;
+  box-shadow: 0px 0px 5px 0px #000b80;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+#contactoSection_1 .contain_form #content_form .form_flex {
+  display: flex;
+  flex-direction: row; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .box_img_form {
+  flex-basis: 50%; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .box_img_form img {
+  margin-left: 5px;
+  width: 100%;
+  height: 100%; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form {
+  flex-basis: 50%;
+  align-self: center; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form_input {
+  padding: 0.5rem;
+  outline: none; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form_input:focus {
+  background-color: #8ec5d63c; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form_label {
+  text-align: left;
+  padding-bottom: .7rem; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form_textarea {
+  resize: none; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form_submit {
+  padding: 1rem;
+  color: black;
+  width: 100px;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  margin: auto;
+  background-color: #b9deec;
+  border: none;
+  transition: all 0.5s; }
+
+#contactoSection_1 .contain_form #content_form .form_flex .form_submit:hover {
+  box-shadow: 0px 0px 5px 1px #7adafd inset;
+  color: white; }
+
+@media (max-width: 480px) {
+  #contactoSection_1 .contain_form #content_form {
+    width: 100%; }
+  #contactSection-1 .contain-form #content_form .form_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 1rem; }
+  #contactoSection_1 .contain_form #content_form .form_flex .box_img_form {
+    min-height: 310px;
+    flex-basis: 0; }
+  #contactoSection_1 .contain_form #content_form .form_flex .form {
+    width: 100%; } }
+=======
+.container {
+  background-color: #AFCBFF;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "NAV NAV NAV NAV NAV" "MAIN MAIN MAIN MAIN MAIN" "MAIN MAIN MAIN MAIN MAIN" "FOOTER FOOTER FOOTER FOOTER FOOTER"; }
+  .container .Botones {
+    font-size: 1.3rem; }
+    .container .Botones li {
+      font-size: 22px;
+      display: inline-block;
+      margin: 10px;
+      padding-left: 110px;
+      padding-right: 3px; }
+      .container .Botones li:hover {
+        color: red; }
+    .container .Botones .NAV {
+      background-color: #002171;
+      grid-area: NAV; }
+
+.seccion1 {
+  margin: 1rem;
+  text-align: center;
+  background-color: #EBEBD3; }
+  .seccion1__parrafo {
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+    background-color: #EBEBD3; }
+>>>>>>> 35ec5b42c6257320fe4fdd21c75173961bc490d1

@@ -1,0 +1,29 @@
+*{
+<<<<<<< HEAD
+    margin: 0;
+    padding: 0;
+}
+
+  
+
+@import './partes.scss/footer';
+@import './partes.scss/header';
+@import './partes.scss/main';
+@import './partes.scss/aside';
+@import './secciones/productos';
+@import './secciones/servicios';
+@import './secciones/galeria';
+@import './secciones/contacto';
+=======
+    margin: 0px;
+    padding: 0px;
+}
+
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/tipografias';
+@import './variables/tamaños';
+
+
+@import './secciones/index.scss';
+>>>>>>> 35ec5b42c6257320fe4fdd21c75173961bc490d1

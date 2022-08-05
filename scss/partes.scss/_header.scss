@@ -1,0 +1,32 @@
+
+.header_first{
+    background-color: #101935;
+    img{
+        margin-left: 10px;
+        max-width: 100%;
+        max-height: 100%;
+        width: 150px;
+        height: 60px;
+        border-radius: 10px;
+        margin: 15px;
+    }
+}
+.header_total{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    
+}
+.header_title{
+    font-size: 30px;
+    color: white;
+    flex-basis: 80%;
+    text-align: center;
+    line-height: 100px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: bolder; 
+}

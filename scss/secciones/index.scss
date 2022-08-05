@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    background-color: #AFCBFF;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "NAV NAV NAV NAV NAV"
+      "MAIN MAIN MAIN MAIN MAIN"
+      "MAIN MAIN MAIN MAIN MAIN"
+      "FOOTER FOOTER FOOTER FOOTER FOOTER";
+    
+    .Botones{
+         li{
+          font-size: 22px;
+          display: inline-block;
+          margin: 10px;
+          padding-left: 110px;
+          padding-right:3px;
+          &:hover{
+            color: red;
+          }
+        
+         }
+    font-size: 1.3rem;
+    .NAV {
+    background-color: #002171;
+     grid-area: NAV;
+        }
+    }
+
+    }
+.seccion1{
+  margin: 1rem;
+    text-align: center;
+    background-color: #EBEBD3;
+      &__parrafo{
+        text-align: center;
+      margin: 1rem;
+      font-weight: bold;
+      background-color: #EBEBD3;
+    }
+  }
+      
+
